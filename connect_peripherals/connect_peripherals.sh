@@ -1,7 +1,6 @@
 #!/bin/bash
 
-MOUSE_MAC_ADDRESS=0C:E4:41:1E:7A:00
-KEYBOARD_MAC_ADDRESS=88:4D:7C:F0:FF:E4
+source ../peripherals.sh
 log_file_dir="/tmp/"
 script_name="log_"$(basename "$0")
 LOG_FILE=$log_file_dir$script_name
