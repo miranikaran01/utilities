@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.karan.connectmagicmouse</string>
+    <string>com.karan.connectperipherals</string>
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/karan/personal-projects/utilities/connect_mouse/connect_mouse.sh</string>
+        <string>/Users/karan/personal-projects/utilities/connect_mouse/connect_connectperipherals.sh</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
