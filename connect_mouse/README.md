@@ -1,4 +1,4 @@
-# Instructions to Symlink plist file and Load Launch Agent
+# Instructions to run the script everytime Macbook wakes up from sleep
 
 ## 1. Get Mouse Mac Address
 ```shell
