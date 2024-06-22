@@ -1,5 +1,13 @@
-Symlink plist file:
-`ln -s /Users/karan/personal-projects/utilities/connect_mouse/com.karan.connectmagicmouse.plist ~/Library/LaunchAgents/com.karan.connectmagicmouse.plist`
+# Instructions to Symlink plist file and Load Launch Agent
 
-Load Launch Agent
-`launchctl load ~/Library/LaunchAgents/com.karan.connectmagicmouse.plist`
+## 1. Symlink plist file
+
+```sh
+ln -s /Users/karan/personal-projects/utilities/connect_mouse/com.karanconnectmagicmouse.plist ~/Library/LaunchAgents/com.karan.connectmagicmouse.plist
+```
+
+## 2. Load Launch Agent
+
+```
+launchctl load ~/Library/LaunchAgents/com.karan.connectmagicmouse.plist
+```
